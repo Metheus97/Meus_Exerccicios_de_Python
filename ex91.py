@@ -14,7 +14,7 @@ for k, v in jogo.items():
     print(f'{k} tirou {v}')
     sleep(0.5)
 print('♦-' * 20)
-
+print('RANKING')
 ranking = []
 ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)
 
