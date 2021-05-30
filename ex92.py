@@ -8,8 +8,9 @@ trabalhadores['idade'] = data - trabalhadores['nascimento']
 if trabalhadores['ctps'] != 0:
     trabalhadores['contratação'] = int(input('Ano de contratação: '))
     trabalhadores['salario'] = float(input('Salario de registro:'))
-    trabalhadores['aposentadoria'] = data - trabalhadores['contratação'] + 30
-
-print(trabalhadores)
+    trabalhadores['aposentadoria'] = trabalhadores['idade'] + (30 - (data - trabalhadores['contratação']))
+print('♦-' * 15)
 for k, v in trabalhadores.items():
     print(f'- {k} tem o valor {v}')
+
+
