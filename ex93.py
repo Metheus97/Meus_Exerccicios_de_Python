@@ -9,7 +9,7 @@ for c in range(0, partidas):
     gols = (int(input(f'Quantos gols ele fez na {c + 1}º partida: ')))
     gol.append(gols)
     tot += gols
-jogador['gols'] = gol
+jogador['gols'] = gol[:]
 jogador['total'] = tot
 
 # primeira apresentação
