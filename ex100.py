@@ -5,8 +5,9 @@ from random import randint
 from time import sleep
 
 núm = []
-def sort(list):
 
+
+def sort(list):
     print('os numeros sorteados são: ', end='')
     for c in range(0, 5):
         num = randint(0, 10)
@@ -22,6 +23,7 @@ def soma(lis):
         if numer % 2 == 0:
             res += numer
     print(f'A soma dos numeros pares é igual a: {res} ')
+
 
 sort(núm)
 soma(núm)

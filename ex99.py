@@ -2,7 +2,8 @@
 
 import time
 
-def Maior (* N):
+
+def Maior(*N):
     maior = 0
     print('-+' * 20)
     print('Analisando números ...')
@@ -15,7 +16,8 @@ def Maior (* N):
     print(f' Foram informados {cont} números.')
     print(f'O maior deles é o numero {maior}')
 
-#Programa principal
+
+# Programa principal
 Maior(2, 10, 4, 6, 9, 8)
 Maior(2, 3)
 Maior()
