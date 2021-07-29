@@ -24,7 +24,7 @@ def resumo(num=0, taxamais=10, taxamenos=5):
     print('-' * 40)
     print('RESUMO DO VALOR'.center(40))
     print('-' * 40)
-    print(f'Preço analisado:\t\t\t\t{moeda(num)}')
+    print(f'Preço analisado:\t\t\t{moeda(num)}')
     print(f'Dobro do preço: \t\t\t{dobro(num)}')
     print(f'Metade do preço:\t\t\t{metade(num)}')
     print(f'Aumento de {taxamais}% no preço: \t{aumentar(num, taxamais)}')
